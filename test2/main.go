@@ -14,9 +14,8 @@ func max(num1, num2 int) int {
 }
 
 func change(x, y string) (string, string) {
-	x, y = y, x
-	fmt.Println("change strings:", x, y)
-	return x, y
+	fmt.Println("change strings:", y, x)
+	return y, x
 }
 
 func sum(a int) int {
