@@ -1,0 +1,86 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "name": "test1",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/go_test1/"
+        },
+        {
+            "name": "test2",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+              "program": "${workspaceFolder}/test2/"
+        },
+        {
+            "name": "test3",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+              "program": "${workspaceFolder}/test3/"
+        },
+        {
+            "name": "test4",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+              "program": "${workspaceFolder}/test4/"
+        },
+        {
+            "name": "test5",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+              "program": "${workspaceFolder}/test5/"
+        },
+        {
+            "name": "test6",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+              "program": "${workspaceFolder}/test6/"
+        },
+        {
+            "name": "test7",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+              "program": "${workspaceFolder}/test7/"
+        },
+        {
+            "name": "test8",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+              "program": "${workspaceFolder}/test8/"
+        },
+        {
+            "name": "test9",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+              "program": "${workspaceFolder}/test9/"
+        },
+        {
+            "name": "test10",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+              "program": "${workspaceFolder}/test10/"
+        },
+        {
+            "name": "test11",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+              "program": "${workspaceFolder}/test11/"
+        },
+    ]
+}
