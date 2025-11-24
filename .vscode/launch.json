@@ -82,5 +82,12 @@
             "mode": "auto",
               "program": "${workspaceFolder}/test11/"
         },
+        {
+            "name": "test12",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+              "program": "${workspaceFolder}/test12/"
+        }
     ]
 }
