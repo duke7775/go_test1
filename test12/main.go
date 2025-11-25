@@ -22,11 +22,12 @@ func main() {
 	for i := 0; i < 5; i++ {
 		ch <- channel{value: i}
 	}
-	close(ch)
+	wg.Add(5)
 	for i := 0; i < 5; i++ {
-		wg.Add(1)
+
 		go print_number(ch)
 	}
+	close(ch)
 	wg.Wait()
 	fmt.Println("Finished")
 }
