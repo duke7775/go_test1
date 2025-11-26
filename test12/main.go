@@ -27,7 +27,7 @@ func main() {
 
 		go print_number(ch)
 	}
-	close(ch)
+	defer close(ch)
 	wg.Wait()
 	fmt.Println("Finished")
 }
