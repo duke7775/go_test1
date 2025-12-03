@@ -6,6 +6,14 @@ import (
 )
 
 func sayHello(w http.ResponseWriter, r *http.Request) {
+	r.ParseForm()
+	fmt.Println(r.Form)
+	fmt.Println("path:", r.URL.Path)
+	fmt.Println("scheme:", r.URL.Scheme)
+	for k, v := range r.Form {
+		fmt.Println("key:", k)
+		fmt.Println("val:", v)
+	}
 	_, _ = fmt.Fprintln(w, "Hello, World!")
 }
 
