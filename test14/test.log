@@ -1,0 +1,21 @@
+time="2025-12-10T20:32:41+07:00" level=trace msg="trace msg"
+time="2025-12-10T20:32:41+07:00" level=debug msg="debug msg"
+time="2025-12-10T20:32:41+07:00" level=info msg="info msg"
+time="2025-12-10T20:32:41+07:00" level=warning msg="warn msg"
+time="2025-12-10T20:32:41+07:00" level=error msg="error msg"
+time="2025-12-10T20:32:41+07:00" level=info msg="info msg with caller" func=main.main file="D:/go/test14/main.go:25"
+time="2025-12-10T20:32:41+07:00" level=info msg=msg func=main.main file="D:/go/test14/main.go:31" action=test fields.time=2025-12-9 user_id=681200
+time="2025-12-10T20:41:40+07:00" level=trace msg="trace msg"
+time="2025-12-10T20:41:40+07:00" level=debug msg="debug msg"
+time="2025-12-10T20:41:40+07:00" level=info msg="info msg"
+time="2025-12-10T20:41:40+07:00" level=warning msg="warn msg"
+time="2025-12-10T20:41:40+07:00" level=error msg="error msg"
+time="2025-12-10T20:41:40+07:00" level=info msg="info msg with caller" func=main.main file="D:/go/test14/main.go:25"
+time="2025-12-10T20:41:40+07:00" level=info msg=msg func=main.main file="D:/go/test14/main.go:31" action=test fields.time=2025-12-9 user_id=681200
+time="2025-12-10T21:07:28+07:00" level=trace msg="trace msg" func=main.main file="D:/go/test14/main.go:19"
+time="2025-12-10T21:07:29+07:00" level=debug msg="debug msg" func=main.main file="D:/go/test14/main.go:20"
+time="2025-12-10T21:07:29+07:00" level=info msg="info msg" func=main.main file="D:/go/test14/main.go:21"
+time="2025-12-10T21:07:29+07:00" level=warning msg="warn msg" func=main.main file="D:/go/test14/main.go:22"
+time="2025-12-10T21:07:29+07:00" level=error msg="error msg" func=main.main file="D:/go/test14/main.go:23"
+time="2025-12-10T21:07:29+07:00" level=info msg="info msg with caller" func=main.main file="D:/go/test14/main.go:27"
+time="2025-12-10T21:07:29+07:00" level=info msg=msg func=main.main file="D:/go/test14/main.go:33" action=test fields.time=2025-12-9 user_id=681200
