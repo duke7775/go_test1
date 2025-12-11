@@ -97,11 +97,26 @@
               "program": "${workspaceFolder}/test13/"
         },
         {
+          "name": "test13_2",
+          "type": "go", 
+          "request": "launch",
+          "mode": "auto",
+            "program": "${workspaceFolder}/test13_2/" 
+        },
+
+        {
             "name": "test14",
             "type": "go",
             "request": "launch",
             "mode": "auto",
               "program": "${workspaceFolder}/test14/"
+        },
+        {
+            "name": "test15",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+              "program": "${workspaceFolder}/test15/"
         }
 
     ]
