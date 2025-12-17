@@ -28,9 +28,6 @@ type Score struct {
 	create_time    time.Time //创建时间
 }
 
-func addStudent(c echo.Context) error {
-	var student Student
-	
 func main() {
 	e := echo.New()
 	e.GET("/", func(c echo.Context) error {
